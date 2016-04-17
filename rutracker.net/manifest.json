@@ -1,0 +1,12 @@
+{
+"name":"Revert rutracker.net",
+"description":"Revert rutracker.org mirror. Twitter: @amur_murmur",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.rutracker.net/*","https://www.rutracker.net/*","http://rutracker.net/*"],
+      "js": ["rutracker.js"]
+    }
+  ]
+}
